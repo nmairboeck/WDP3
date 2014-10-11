@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Kontakt</title>
+		<meta name="description" content="">
+		<meta name="author" content="s1310307027">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+	</head>
+
+	<body>
+		<div>
+			<header>
+				<div>
+					<h1>Kontakt</h1>
+				</div>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Startseite</a>
+						</li>
+						<li>
+							<a href="infos.html">Infos</a>
+						</li>
+						<li>
+							<a href="contact.html">Kontakt</a>
+						</li>
+					</ul>
+				</nav>
+				<div>
+					<img src="img/header.jpg" alt="Landschaft" style="max-width: 450px; max-height:334px"/>
+				</div>
+			</header>
+
+			<section>
+				<h2>Formular</h2>
+				<form action="#" method="post">
+					<!-- Erweiterung HÜ: Auswahl für Anrede, Textarea für Nachricht -->
+					<label>
+						<span>Anrede</span>
+						<select name="caption">
+							<option value="Frau" selected="">Frau</option>
+							<option value="Herr">Herr</option>
+						</select> 
+					</label>
+					<br/>
+					<label>
+						<span>Name</span>
+						<input type="text" name="name" placeholder="Ihr Name" required=""/>
+					</label>
+					<br/>
+					<label >
+						<span>E-Mail</span>
+						<input type="email" name="mail" placeholder="Ihre E-Mail Adresse" required=""/>
+					</label>
+					<br/>
+					<label> 
+						<span>
+							<textarea cols="40" rows="4" name="message"> </textarea> 
+						</span> 
+					</label>
+					<br/>
+					<button type="submit" value="Senden">
+						Senden
+					</button>
+				</form>
+			</section>
+			<aside>
+				<h3>Autor</h3>
+				<p class="vcard">
+					<span class="fn">Nikolaus Mairböck</span>
+					<br/>
+					<span class="org"> FH Hagenberg </span>
+					<br/>
+					<a class="email" href="mailto:s1310307027@students.fh-hagenberg.at">s1310307027@students.fh-hagenberg.at</a>
+					<br/>
+					<span class="adr"> <span class="street-address"> Softwarepark 1 </span> <span class="postal-code">4232</span> <span class="locality">Hagenberg i.M.</span> <span class="country-name">Österreich</span> </span>
+
+				</p>
+			</aside>
+			<footer>
+				<p>
+					&copy; Webdesign &amp; -programmierung
+				</p>
+			</footer>
+		</div>
+	</body>
+</html>
