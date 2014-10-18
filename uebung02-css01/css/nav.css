@@ -1,0 +1,44 @@
+/*basic nav style*/
+nav ul {
+	padding: 0;
+	margin: 0:
+	list-style-type: none;
+}
+
+nav a {
+	display: block;
+	color: #000000;
+	text-decoration: none;
+}
+nav a:visited {
+	color: #000000;
+}
+
+
+
+/*main nav*/
+
+.main-nav a{
+	padding: 10px;
+}
+
+.main-nav li {
+	border-bottom: 2px solid #000;
+}
+.main-nav li:first-child {
+	border-top: 2px solid #000;
+}
+
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav .is-active a:hover,
+.main-nav .is-active a:focus {
+	background-color: darkblue;
+	color: white;
+}
+
+.main-nav .is-active a {
+	background-color: lightblue;
+	font-weight: bold;
+	color: black;
+}

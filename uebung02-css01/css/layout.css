@@ -1,0 +1,48 @@
+
+/*basic layout styles*/
+
+.page-header-top {
+	padding: 10px;
+	background-color: black;
+	color: white;
+}
+
+.page-header-top h1 {
+	margin: 0;
+	color: white;
+}
+
+.page-header-image {
+	border-bottom: 2px sold black;
+	max-height: 250px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+.page-header-image img {
+	display:block;
+	width: 100%;
+	height: auto;
+	opacity: 0;
+}
+
+.page-content {
+	padding: 10px;
+}
+
+.page-sidebar {
+	padding: 10px;
+	border-top: 2px solid black;
+}
+
+.page-footer {
+	padding: 10px;
+	background-color: black;
+	color: white;	
+}
+
+.page-footer p {
+	margin: 0;
+}
